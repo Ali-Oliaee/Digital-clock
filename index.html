@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ali Oliaee">
-    <meta name="discription" content="digital clock">
-    <meta name="keywords" content="html, scss, javascript, clock, digitalClock">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ali Oliaee" />
+    <meta name="discription" content="digital clock" />
+    <meta
+      name="keywords"
+      content="html, scss, javascript, clock, digitalClock"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Digital Clock</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <main>
-        <section class="container">
-            <span id="hour">0</span>:
-            <span id="minute">0</span>:
-            <span id="seconds">0</span>
-        </section>
-        <div class="buttons">
-            <button class="btn" onclick="bgChanger()">change Body background</button>
-            <button class="btn" onclick="bgReset()">reset Body background</button>
-        </div>
+      <section class="container">
+        <span id="hour">0</span>: <span id="minute">0</span>:
+        <span id="seconds">0</span>
+      </section>
+      <div class="buttons">
+        <button class="btn" id="change-background-button">
+          change Body background
+        </button>
+        <button class="btn" id="reset-background-button">
+          reset Body background
+        </button>
+      </div>
     </main>
-
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
